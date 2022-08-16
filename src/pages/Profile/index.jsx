@@ -40,7 +40,7 @@ export const Profile = () => {
 
   useEffect(() => {
     setValue("username", user.username);
-  }, [user]);
+  }, [setValue, user]);
 
   const onSubmit = (user) => login(user);
 
