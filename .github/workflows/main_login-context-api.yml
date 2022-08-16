@@ -60,4 +60,4 @@ jobs:
           app-name: 'login-context-api'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_64BB0A20443048EDBEEC13F68B3971F6 }}
-          package: .
+          package: release.zip
