@@ -18,7 +18,7 @@ describe("Login", () => {
     render(<Login />, { wrapper: AuthUserProvider });
 
     const formTitle = screen.getByRole("heading", { name: "Welcome" });
-    expect(formTitle).not.toBeInTheDocument();
+    expect(formTitle).toBeInTheDocument();
   });
 
   it("should be render a username input", () => {
