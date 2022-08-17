@@ -7,6 +7,7 @@ export const Container = styled.div`
   align-items: center;
   max-width: 935px;
   margin: 0 auto;
+  background-color: orange;
 
   @media (max-width: 768px) {
     flex-direction: ${({ mobile }) => mobile && "column"};
