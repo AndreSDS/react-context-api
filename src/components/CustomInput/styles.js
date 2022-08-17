@@ -4,7 +4,7 @@ export const ContainerInput = styled.div`
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  height: 80px;
+  height: 75px;
   width: 100%;
 
   span {
